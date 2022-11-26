@@ -1,0 +1,14 @@
+modules:
+  macro:
+    - key: forge-hello-world-hello-world
+      function: main
+      title: Hello, Adam!
+      description: Inserts Hello world!
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/e60d99b4-3bfd-4f94-b0ae-c98f854600c8
+permissions:
+  scopes:
+    - read:confluence-content.summary
